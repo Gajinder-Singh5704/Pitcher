@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EC8F933D2DA3BD5A007F8745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8F931E2DA3BD59007F8745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8F93252DA3BD59007F8745;
+			remoteInfo = PITHCER;
+		};
+		EC8F93472DA3BD5A007F8745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8F931E2DA3BD59007F8745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8F93252DA3BD59007F8745;
+			remoteInfo = PITHCER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8F93262DA3BD59007F8745 /* PITHCER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PITHCER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8F933C2DA3BD5A007F8745 /* PITHCERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PITHCERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8F93462DA3BD5A007F8745 /* PITHCERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PITHCERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EC8F934E2DA3BD5A007F8745 /* Exceptions for "PITHCER" folder in "PITHCER" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EC8F93252DA3BD59007F8745 /* PITHCER */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EC8F93282DA3BD59007F8745 /* PITHCER */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EC8F934E2DA3BD5A007F8745 /* Exceptions for "PITHCER" folder in "PITHCER" target */,
+			);
+			path = PITHCER;
+			sourceTree = "<group>";
+		};
+		EC8F933F2DA3BD5A007F8745 /* PITHCERTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PITHCERTests;
+			sourceTree = "<group>";
+		};
+		EC8F93492DA3BD5A007F8745 /* PITHCERUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PITHCERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8F93232DA3BD59007F8745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8F93392DA3BD5A007F8745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8F93432DA3BD5A007F8745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8F931D2DA3BD59007F8745 = {
+			isa = PBXGroup;
+			children = (
+				EC8F93282DA3BD59007F8745 /* PITHCER */,
+				EC8F933F2DA3BD5A007F8745 /* PITHCERTests */,
+				EC8F93492DA3BD5A007F8745 /* PITHCERUITests */,
+				EC8F93272DA3BD59007F8745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8F93272DA3BD59007F8745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F93262DA3BD59007F8745 /* PITHCER.app */,
+				EC8F933C2DA3BD5A007F8745 /* PITHCERTests.xctest */,
+				EC8F93462DA3BD5A007F8745 /* PITHCERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8F93252DA3BD59007F8745 /* PITHCER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8F934F2DA3BD5A007F8745 /* Build configuration list for PBXNativeTarget "PITHCER" */;
+			buildPhases = (
+				EC8F93222DA3BD59007F8745 /* Sources */,
+				EC8F93232DA3BD59007F8745 /* Frameworks */,
+				EC8F93242DA3BD59007F8745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EC8F93282DA3BD59007F8745 /* PITHCER */,
+			);
+			name = PITHCER;
+			packageProductDependencies = (
+			);
+			productName = PITHCER;
+			productReference = EC8F93262DA3BD59007F8745 /* PITHCER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8F933B2DA3BD5A007F8745 /* PITHCERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8F93542DA3BD5A007F8745 /* Build configuration list for PBXNativeTarget "PITHCERTests" */;
+			buildPhases = (
+				EC8F93382DA3BD5A007F8745 /* Sources */,
+				EC8F93392DA3BD5A007F8745 /* Frameworks */,
+				EC8F933A2DA3BD5A007F8745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8F933E2DA3BD5A007F8745 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC8F933F2DA3BD5A007F8745 /* PITHCERTests */,
+			);
+			name = PITHCERTests;
+			packageProductDependencies = (
+			);
+			productName = PITHCERTests;
+			productReference = EC8F933C2DA3BD5A007F8745 /* PITHCERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC8F93452DA3BD5A007F8745 /* PITHCERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8F93572DA3BD5A007F8745 /* Build configuration list for PBXNativeTarget "PITHCERUITests" */;
+			buildPhases = (
+				EC8F93422DA3BD5A007F8745 /* Sources */,
+				EC8F93432DA3BD5A007F8745 /* Frameworks */,
+				EC8F93442DA3BD5A007F8745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8F93482DA3BD5A007F8745 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC8F93492DA3BD5A007F8745 /* PITHCERUITests */,
+			);
+			name = PITHCERUITests;
+			packageProductDependencies = (
+			);
+			productName = PITHCERUITests;
+			productReference = EC8F93462DA3BD5A007F8745 /* PITHCERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8F931E2DA3BD59007F8745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EC8F93252DA3BD59007F8745 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EC8F933B2DA3BD5A007F8745 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EC8F93252DA3BD59007F8745;
+					};
+					EC8F93452DA3BD5A007F8745 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EC8F93252DA3BD59007F8745;
+					};
+				};
+			};
+			buildConfigurationList = EC8F93212DA3BD59007F8745 /* Build configuration list for PBXProject "PITHCER" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8F931D2DA3BD59007F8745;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EC8F93272DA3BD59007F8745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8F93252DA3BD59007F8745 /* PITHCER */,
+				EC8F933B2DA3BD5A007F8745 /* PITHCERTests */,
+				EC8F93452DA3BD5A007F8745 /* PITHCERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8F93242DA3BD59007F8745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8F933A2DA3BD5A007F8745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8F93442DA3BD5A007F8745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8F93222DA3BD59007F8745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8F93382DA3BD5A007F8745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8F93422DA3BD5A007F8745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8F933E2DA3BD5A007F8745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8F93252DA3BD59007F8745 /* PITHCER */;
+			targetProxy = EC8F933D2DA3BD5A007F8745 /* PBXContainerItemProxy */;
+		};
+		EC8F93482DA3BD5A007F8745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8F93252DA3BD59007F8745 /* PITHCER */;
+			targetProxy = EC8F93472DA3BD5A007F8745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC8F93502DA3BD5A007F8745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRH68V79JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PITHCER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gajindersingh.PITCHER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8F93512DA3BD5A007F8745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRH68V79JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PITHCER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gajindersingh.PITCHER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC8F93522DA3BD5A007F8745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC8F93532DA3BD5A007F8745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8F93552DA3BD5A007F8745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRH68V79JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gajindersingh.PITHCERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PITHCER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PITHCER";
+			};
+			name = Debug;
+		};
+		EC8F93562DA3BD5A007F8745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRH68V79JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gajindersingh.PITHCERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PITHCER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PITHCER";
+			};
+			name = Release;
+		};
+		EC8F93582DA3BD5A007F8745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRH68V79JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gajindersingh.PITHCERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PITHCER;
+			};
+			name = Debug;
+		};
+		EC8F93592DA3BD5A007F8745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRH68V79JU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gajindersingh.PITHCERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PITHCER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8F93212DA3BD59007F8745 /* Build configuration list for PBXProject "PITHCER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8F93522DA3BD5A007F8745 /* Debug */,
+				EC8F93532DA3BD5A007F8745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8F934F2DA3BD5A007F8745 /* Build configuration list for PBXNativeTarget "PITHCER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8F93502DA3BD5A007F8745 /* Debug */,
+				EC8F93512DA3BD5A007F8745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8F93542DA3BD5A007F8745 /* Build configuration list for PBXNativeTarget "PITHCERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8F93552DA3BD5A007F8745 /* Debug */,
+				EC8F93562DA3BD5A007F8745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8F93572DA3BD5A007F8745 /* Build configuration list for PBXNativeTarget "PITHCERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8F93582DA3BD5A007F8745 /* Debug */,
+				EC8F93592DA3BD5A007F8745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8F931E2DA3BD59007F8745 /* Project object */;
+}
