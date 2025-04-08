@@ -1,3 +1,5 @@
+PITHCER
+
 🎙️ Audio Recorder & Effects App
 This iOS app allows users to record audio and play it back with various sound effects, using a clean two-screen interface powered by UINavigationController.
 
